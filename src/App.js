@@ -9,7 +9,7 @@ import axios from "axios";
 import UpdateUser from "./pages/UpdateUser";
 import React, { useState } from "react";
 
-axios.defaults.baseURL = "http://localhost:3006";
+axios.defaults.baseURL = "https://react-express-server1.herokuapp.com/";
 
 function App() {
   const [loggedInUser, setLoggedInUser] = useState({});

@@ -1,0 +1,22 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.loader {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    transition: 0.3s all ease;
+    transform: translateX(100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.loading {
+    transform: translateX(0);
+}
